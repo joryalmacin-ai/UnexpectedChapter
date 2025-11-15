@@ -1,5 +1,5 @@
-/* Reset some defaults */
-* {
+<style>
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -64,3 +64,4 @@ a:hover {
     h2 { font-size: 1.4rem; }
     p { font-size: 1rem; }
 }
+</style>
