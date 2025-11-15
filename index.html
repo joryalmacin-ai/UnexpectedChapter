@@ -6,6 +6,81 @@
     <title>Our Journey</title>
     <link rel="stylesheet" href="style.css">
 </head>
+    <style>
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Background Image */
+body {
+    background: url('ourphoto.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #f0f0f0;
+    text-align: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+/* Overlay for readability */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    background: rgba(0, 0, 50, 0.5);
+    z-index: -1;
+}
+
+/* Main container box */
+.container {
+    padding: 50px 20px;
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    background-color: rgba(0, 0, 50, 0.3);
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+/* Headings */
+h1, h2 {
+    color: #cce0ff;
+    margin-bottom: 20px;
+}
+
+/* Paragraph */
+p {
+    line-height: 1.8;
+    color: #e0e0ff;
+    font-size: 1.1rem;
+}
+
+/* Links */
+a {
+    color: #99ccff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .container {
+        padding: 30px 15px;
+    }
+    h1 { font-size: 1.8rem; }
+    h2 { font-size: 1.4rem; }
+    p { font-size: 1rem; }
+}
+</style>
 <body>
     <div class="container">
         <h1>Our Journey Together</h1>
