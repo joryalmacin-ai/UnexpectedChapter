@@ -7,7 +7,7 @@
 }
 
 body {
-    background: url('../images/couple.jpg') no-repeat center center fixed;
+    background: url('ourphoto.jpg') no-repeat center center fixed;
     background-size: cover;
     color: #f0f0f0;
     text-align: center;
